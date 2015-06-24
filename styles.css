@@ -1,0 +1,35 @@
+body{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.buttons{
+	padding: 1em;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.btn{
+	background: #52CBE1;
+	border: 2px solid #394850;
+	padding: 1em 2em;
+	font-size: 1.1em;
+	margin: 0 0 0.5em 0;
+	transition: 0.3s;
+	color: black;
+	font-weight: 300;
+	text-decoration: none;
+	width: 100%;
+}
+
+.btn:hover{
+	transform: scale(1.1);
+}
+
+@media all and (min-width: 769px){
+	.btn{
+		width: 40%;
+		margin: 0 0.5em 1em 0;
+	}
+}
