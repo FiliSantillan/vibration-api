@@ -18,6 +18,19 @@
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
+	<!-- FACEBOOK -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- TWITTER -->
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 </head>
 <body>
 
@@ -77,6 +90,11 @@
 			<a href="http://caniuse.com/#search=vibration%20api" target="blank">Soporte actual</a>
 			<i class="fa fa-heart"></i>
 			<a href="https://github.com/FiliMX/Vibration-API" target="blank">Ver en Github</a>
+		</div>
+
+		<div class="share">
+			<div class="fb-share-button" data-href="http://filimx.github.io/Vibration-API/" data-layout="button_count"></div>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-text="Vibration API" data-via="FiliMX">Tweet</a>
 		</div>
 	</footer>
 

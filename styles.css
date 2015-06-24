@@ -74,6 +74,10 @@ p{
 	margin: 0 0.7em;
 }
 
+.share > div, .share > iframe{
+  vertical-align: top;
+  margin: 1em 1em 0 1em !important;
+}
 
 
 @media all and (min-width: 769px){
