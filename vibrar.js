@@ -8,7 +8,7 @@ document.querySelector("#vibrate-dos").addEventListener("click", function () {
 
 
 document.querySelector("#vibrar-mucho").addEventListener("click", function () {
-    navigator.vibrate(5000);
+    navigator.vibrate(10000);
 }, false);
 
 document.querySelector("#vibrar-off").addEventListener("click", function () {

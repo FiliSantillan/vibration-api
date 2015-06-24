@@ -3,6 +3,20 @@ body{
 	font-family: 'Raleway', sans-serif;
 	background: #1E252A;
 	color: white;
+	font-weight: 300;
+}
+
+h1{
+	font-size: 3em;
+	margin: 0;
+}
+
+h2{
+	font-size: 2em;
+	margin: 0;
+	border: 2px solid white;
+	padding: 0.5em;
+	display: inline-block;
 }
 
 a{
@@ -10,14 +24,8 @@ a{
 	text-decoration: none;
 }
 
-h1{
-	font-size: 3em;
-	margin: 1em 0 0 0;
-}
-
-h2{
-	font-size: 2em;
-	margin: 0 0 1em 0;
+p{
+	display: none;
 }
 
 .buttons{
@@ -49,6 +57,11 @@ h2{
 	color: #F43E4D;
 }
 
+.footer .article{
+	margin: 0 0 1em 0;
+	display: inline-block;
+}
+
 .social .icon{
 	font-size: 2em;
 }
@@ -56,6 +69,11 @@ h2{
 .info{
 	margin: 1em 0 0 0;
 }
+
+.info .fa-heart{
+	margin: 0 0.7em;
+}
+
 
 
 @media all and (min-width: 769px){
@@ -68,5 +86,11 @@ h2{
 	.btn{
 		width: 40%;
 		margin: 0 0.5em 1em 0;
+	}
+}
+
+@media all and (min-width: 1080px){
+	p{
+		display: block;
 	}
 }
