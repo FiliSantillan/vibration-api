@@ -30,9 +30,9 @@ p{
 
 .buttons{
 	padding: 1em;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	display: -webkit-flex;
+	-webkit-justify-content: space-around;
+	-webkit-flex-wrap: wrap;
 }
 
 .btn{
