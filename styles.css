@@ -1,6 +1,23 @@
 body{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
+	background: #1E252A;
+	color: white;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 3em;
+	margin: 1em 0 0 0;
+}
+
+h2{
+	font-size: 2em;
+	margin: 0 0 1em 0;
 }
 
 .buttons{
@@ -12,7 +29,7 @@ body{
 
 .btn{
 	background: #52CBE1;
-	border: 2px solid #394850;
+	border: 2px solid white;
 	padding: 1em 2em;
 	font-size: 1.1em;
 	margin: 0 0 0.5em 0;
@@ -27,7 +44,27 @@ body{
 	transform: scale(1.1);
 }
 
+.footer{
+	font-size: 1.2em;
+	color: #F43E4D;
+}
+
+.social .icon{
+	font-size: 2em;
+}
+
+.info{
+	margin: 1em 0 0 0;
+}
+
+
 @media all and (min-width: 769px){
+
+	h1{
+		font-size: 4em;
+		margin: 1em 0 0 0;
+	}
+
 	.btn{
 		width: 40%;
 		margin: 0 0.5em 1em 0;
