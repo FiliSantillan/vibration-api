@@ -16,5 +16,5 @@ if (window.navigator && window.navigator.vibrate) {
         navigator.vibrate(0);
     }, false);
 } else {
-   alert("Tu dispositivo no soporta la API de vibración")
+   alert("Tu dispositivo no soporta la API de vibración");
 }
