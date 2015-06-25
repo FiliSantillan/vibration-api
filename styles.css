@@ -24,7 +24,7 @@ a{
 	text-decoration: none;
 }
 
-p{
+.recuerda{
 	display: none;
 }
 
@@ -97,7 +97,7 @@ p{
 }
 
 @media all and (min-width: 1080px){
-	p{
+	.recuerda{
 		display: block;
 	}
 }
