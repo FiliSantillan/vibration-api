@@ -33,6 +33,9 @@ p{
 	display: -webkit-flex;
 	-webkit-justify-content: space-around;
 	-webkit-flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .btn{
